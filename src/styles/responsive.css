@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+  .section-padding {
+    padding: 4.75rem 0;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 3.75rem 0;
+  }
+  .container {
+    padding: 0 1.15rem;
+  }
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-menu-trigger {
+    display: inline-flex !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-actions > * {
+    width: 100%;
+    justify-content: center;
+  }
+}
